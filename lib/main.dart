@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pety_cash/screens/login/home_screen.dart';
+import 'package:pety_cash/screens/login/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,7 @@ debugShowCheckedModeBanner: false,
         primarySwatch: Colors.blue,
         accentColor: Color(0xFFFEF9EB)
       ),
-      home: HomeScreen()
+      home: MyLogin()
     );
   }
 }
